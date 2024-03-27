@@ -1,33 +1,45 @@
-**Stresses Calculator - Team 2**
-Welcome to the Stresses Calculator - Team 2 MATLAB App!
+# Stresses Calculator - Team 2
 
-**Overview**
-The Stresses Calculator - Team 2 MATLAB App is designed to help engineers and researchers in analyzing stress states and principal stresses using Mohr's Circle principles. This application allows users to input stress components (σx, σy, and τxy) and a rotation angle (θ), and it computes various stress parameters such as principal stresses (σ1, σ2), maximum shear stress (τ_max), and rotation stresses (σx1, σy1, τx1y1). Additionally, it visualizes the stress state using Mohr's Circle.
+## Description
+This MATLAB App Designer project implements a Stresses Calculator, primarily focusing on calculating various stress parameters such as principal stresses, maximum shear stress, and rotation stresses based on user input parameters. The app utilizes graphical representations, particularly Mohr's circle, to visualize stress states.
 
-**Features**
+## Features
+- Calculates principal stresses
+- Computes maximum shear stress
+- Determines rotation stresses
+- Visualizes stress states using Mohr's circle
 
-**Input Parameters:** Users can input the values of σx, σy, τxy, and the rotation angle (θ) through dedicated input fields.
-**Calculation:** Upon pressing the "Calculate Parameters & Draw Circle" button, the app performs calculations based on the input parameters and displays the results in the output panels.
-**Output Parameters:** The computed values of principal stresses, maximum shear stress, and rotation stresses are displayed in the output panels.
-**Visualization:** Mohr's Circle is plotted on the UIAxes to provide a visual representation of the stress state.
+## Usage
+1. Input parameters in the "Input Parameters" panel:
+   - `Sigma_x`: Normal stress in the x-direction
+   - `Sigma_y`: Normal stress in the y-direction
+   - `Shear_xy (τxy)`: Shear stress
+   - `Rotation Angle (θ)`: Angle of rotation
+2. Click on the "Calculate Parameters & Draw Circle" button to perform calculations and visualize results.
+3. View output parameters in the "Output Parameters" panel:
+   - `Sigma_x1`: Normal stress in the x1-direction
+   - `Sigma_y1`: Normal stress in the y1-direction
+   - `Shear_x1y1`: Shear stress in the x1y1-direction
+   - `Sigma1`: First principal stress
+   - `Sigma2`: Second principal stress
+   - `Theta_p1`: Angle of first principal stress
+   - `Theta_p2`: Angle of second principal stress
+   - `Maximum Shear`: Maximum shear stress
+   - `Theta_s1`: Angle of maximum shear stress plane (first)
+   - `Theta_s2`: Angle of maximum shear stress plane (second)
 
-**How to Use**
+## Installation
+Simply run the MATLAB App Designer project file `StressesCalculatorTeam2.mlapp` in MATLAB environment.
 
-**Input Parameters:** Enter the values of σx, σy, τxy, and the rotation angle (θ) in the respective input fields.
-**Calculate Parameters: **Click on the "Calculate Parameters & Draw Circle" button to initiate the calculation process.
-**View Results: **The computed parameters will be displayed in the output panels.
-**Mohr's Circle: **The plotted Mohr's Circle on the UIAxes provides a visual representation of the stress state.
+## Screenshots
+![Screenshot Gallery](https://imgur.com/gallery/jd8zon5)
 
-**Notes**
+## Credits
+This project was developed by Team 2 as part of [Stress Analysis Course].
+Team members:
+1. Ehab Mokhtar
+2. Fatma Alzahraa Emad
+3. Gehad Mohamed
+4. Hebatullah Elgazoly
+5. Mohamed Assem
 
-- Ensure that the input parameters are entered correctly to obtain accurate results.
-The app follows the conventions of positive and negative stresses based on standard engineering principles.
-For any assistance or feedback, please contact the development team.
-Thank you for using our Stresses Calculator MATLAB App!
-
-Developed by Team 2:
-    1. Ehab Mokhtar
-    2. Fatma Alzahraa Emad
-    3. Gehad Mohamed
-    4. Hebatullah Elgazoly
-    5. Mohamed Assem
