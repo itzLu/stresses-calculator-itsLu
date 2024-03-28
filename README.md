@@ -32,7 +32,7 @@ This MATLAB App Designer project implements a Stresses Calculator, primarily foc
 Simply run the MATLAB App Designer project file `StressesCalculatorTeam2.mlapp` in MATLAB environment.
 
 ## Screenshots
-![Screenshot Gallery](https://imgur.com/gallery/jd8zon5)
+[View Screenshot Gallery](https://imgur.com/gallery/jd8zon5)
 
 ## Credits
 This project was developed by Team 2 as part of [Stress Analysis Course].
